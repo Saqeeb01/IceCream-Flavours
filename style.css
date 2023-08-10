@@ -1,0 +1,59 @@
+
+body{
+    
+    background:url("image/Ice\ Cream.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+
+.container{
+    position: absolute;
+    top: 13%;
+    left: 5%;
+}
+
+#ice-creams,.more{
+    list-style: none;
+}
+
+.flavours{
+    font-size: 1.5rem;
+}
+
+.flavour{
+    font-size: 1.1rem;
+    color: rgb(247, 40, 3);
+    font-weight: bold;
+}
+
+.more,li{
+    font-size: .9rem;
+}
+
+li{
+    padding: .1em;
+}
+
+.arrow::before{
+    content: '\25B6';
+    color: black;
+    margin-right: .2em;
+    display: inline-block;
+}
+
+.more{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.arrow-down::before{
+    transform: rotate(-270deg);
+}
